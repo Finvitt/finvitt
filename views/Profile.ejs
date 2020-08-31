@@ -1,0 +1,249 @@
+<%- include("header") -%>
+<!--Section: Contact v.2-->
+
+<section class="mb-4">
+  <!--Section heading-->
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Register Your Profile Now Easily</h2>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5">No need to waste your time in queues!!!</p>
+
+  <div class="row">
+
+    <!--Grid column-->
+    <div class="col-md-9 mb-md-0 mb-5 " style="margin:auto">
+      <form id="contact-form" action="/Profile" method="POST">
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="md-form mb-0">
+              <label for="fname">First name</label>
+              <input type="text" id="fname" name="fname" class="form-control" placeholder="First Name" required autofocus>
+
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="md-form mb-0">
+              <label for="fname">Middle name</label>
+              <input type="text" id="mname" name="mname" class="form-control" placeholder="Middle Name">
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="md-form mb-0">
+              <label for="lname">Last name</label>
+              <input type="text" id="lname" name="lname" class="form-control" placeholder="Last Name" required>
+            </div>
+          </div>
+          <!--Grid column-->
+        </div>
+        <br></br>
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="md-form mb-0">
+              <label for="phone_num">Contact</label>
+              <input type="text" id="phone_num" name="phone_num" class="form-control" placeholder="Your Contact number" required>
+              <br>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-8">
+            <div class="md-form mb-0">
+              <label for="number">Email Address</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+              <br>
+            </div>
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+        <br></br>
+        <!--Grid row-->
+        <div class="row">
+
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+
+              <label for="male"> Select gender </label>
+              <input type="radio" id="male" name="gender" value="male">
+              <label for="male"> Male</label>
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="female"> Female</label>
+              <input type="radio" id="other" name="gender" value="other">
+              <label for="other"> Other</label>
+
+            </div>
+          </div>
+          <br></br>
+          <!--Grid column-->
+          <div class="col-md-12">
+            <div class="md-form mb-0">
+              <!-- <label for="address" class="">Address</label> -->
+              <input type="text" id="address" name="address" class="form-control" placeholder="Your Address" required>
+              <br>
+            </div>
+          </div>
+          <!--Grid column-->
+
+        </div>
+
+        <br></br>
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="md-form mb-0">
+              <label for="reigstration_photograph" class="">Upload your phtograph (Less than 2mb)</label>
+              <input type="file" id="registrationPhotograph" name="registrationPhotograph" class="form-control" required>
+              <br>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="md-form mb-0">
+              <label for="certificate_10" class="">Upload 10th Certificate (Less than 2mb)</label>
+              <input type="file" id="certificate_10" name="certificate_10" class="form-control" required>
+              <br>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="md-form mb-0">
+              <label for="certificate_12" class="">Upload 12th Certificate (Less than 2mb)</label>
+              <input type="file" id="certificate_12" name="certificate_12" class="form-control" required>
+              <br>
+            </div>
+          </div>
+          <!--Grid column-->
+
+        </div>
+
+
+        <br></br>
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="md-form mb-0">
+              <label for="aadhaar_card" class="">Upload Aadhar Card (Less than 2mb)</label>
+              <input type="file" id="aadhaar_card" name="aadhaar_card" class="form-control" required>
+              <br>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="md-form mb-0">
+              <label for="pan_card" class="">Upload Pan Card (Less than 2mb)</label>
+              <input type="file" id="pan_card" name="pan_card" class="form-control">
+              <br>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="md-form mb-0">
+              <label for="address_proof" class="">Upload Address Proof (Less than 2mb)</label>
+              <input type="file" id="address_proof" name="address_proof" class="form-control">
+              <br>
+            </div>
+          </div>
+          <!--Grid column-->
+
+        </div>
+
+        <br></br>
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="md-form mb-0">
+              <label for="mother_fName">Mother's First Name</label>
+              <input type="text" id="mother_fName" name="mother_fName" class="form-control" placeholder="First Name" required>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="md-form mb-0">
+              <label for="mother_mName">Mother's Middle Name</label>
+              <input type="text" id="mother_mName" name="mother_mName" class="form-control" placeholder="Middle Name">
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="md-form mb-0">
+              <label for="mother_fName">Mother's Last Name</label>
+              <input type="text" id="mother_lName" name="mother_lName" class="form-control" placeholder="Last Name" required>
+            </div>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+        <br></br>
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="md-form mb-0">
+              <label for="father_fName">Father's First Name</label>
+              <input type="text" id="father_fName" name="father_fName" class="form-control" placeholder="First Name" required>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="md-form mb-0">
+              <label for="father_mName">Father's Middle Name</label>
+              <input type="text" id="father_mName" name="father_mName" class="form-control" placeholder="Middle Name">
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="md-form mb-0">
+              <label for="father_lName">Father's Last Name</label>
+              <input type="text" id="father_lName" name="father_lName" class="form-control" placeholder="Last Name" required>
+            </div>
+          </div>
+          <!--Grid column-->
+        </div>
+        <br></br>
+        <!--Grid row-->
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+      </form>
+
+      <!--Grid column-->
+    </div>
+  </div>
+
+</section>
+<%- include("footer") -%>
